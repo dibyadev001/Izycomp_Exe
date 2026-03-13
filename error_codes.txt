@@ -1,0 +1,67 @@
+IzyComp Pro – EXE Return Codes Documentation
+
+This document describes the possible return codes that may be returned by the IzyComp Pro installer or executable.
+
+Standard Return Codes
+
+0 – Success
+The operation completed successfully.
+
+1 – General Error
+A generic error occurred during execution.
+
+2 – File Not Found
+The system cannot find the specified file.
+
+3 – Path Not Found
+The system cannot find the specified path.
+
+5 – Access Denied
+The application does not have sufficient permissions.
+
+Windows Installer Common Return Codes
+
+1601 – Windows Installer Service could not be accessed.
+
+1602 – Installation cancelled by user.
+
+1603 – Fatal error during installation.
+
+1604 – Installation suspended or incomplete.
+
+1605 – Product not installed.
+
+1606 – Feature ID not registered.
+
+1607 – Component ID not registered.
+
+1608 – Unknown property.
+
+1609 – Invalid handle state.
+
+1610 – Configuration data corrupt.
+
+1611 – Component qualifier not present.
+
+1612 – Installation source not available.
+
+1613 – Package version unsupported.
+
+1614 – Product uninstalled.
+
+1615 – SQL query syntax invalid.
+
+1616 – Record field does not exist.
+
+1618 – Another installation already in progress.
+
+Restart Required Codes
+
+3010 – Restart required to complete installation.
+
+Unknown Errors
+
+Any return code not listed above should be treated as an unexpected or unknown error.
+
+For complete Windows system error codes, refer to:
+https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes
